@@ -12,18 +12,12 @@ Atributos principales: Edad, clase laboral, educación, ocupación, relación, r
 - `adult_cleaned.xlsx`: Dataset limpio para análisis.
 - `adul_cleaned.py`: Código Python para ejecutar el dashboard.
 
-## Requisitos
 
-Instalar las siguientes dependencias:
-```bash
-pip install streamlit pandas matplotlib seaborn
+## Contenido
 
+Para obtener más información, consulte la fuente original en UCI Machine Learning Repository.
 
-` Contenido
-
- Para obtener más información, consulte la fuente original en UCI Machine Learning Repository.
-
- Variables de entrada (atributos):
+Variables de entrada (atributos):
 
 * Edad ( age): Numérica continua.
 * Clase laboral ( workclass): Tipo de empleo (privado, autónomo, gobierno, etc.).
@@ -39,3 +33,11 @@ pip install streamlit pandas matplotlib seaborn
 * Pérdida de capital ( capital-loss): Valor continuo.
 * Horas por semana ( hours-per-week): Número de horas trabajadas por semana.
 * País de origen ( native-country): País de nacimiento (Estados Unidos, India, México, etc.).`
+
+## Requisitos
+
+Instalar las siguientes dependencias:
+```bash
+pip install streamlit pandas matplotlib seaborn
+
+
